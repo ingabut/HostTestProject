@@ -57,3 +57,9 @@ task indicators_tests(type: Test) {
         options.suites 'src/test/resources/testng/indicators_tests.xml'
     }
 }
+task indicators_api_tests(type: Test) {
+    ignoreFailures = true
+    useTestNG() {
+        options.suites 'src/test/resources/testng/indicators_api_tests.xml'
+    }
+}
