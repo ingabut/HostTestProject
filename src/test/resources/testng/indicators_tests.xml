@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Health indicators tests">
-    <test name="Go to Indicators tests">
+<suite name="Тестирование электронной регистратуры (ui)">
+    <test name="Тестирование показателей здоровья">
         <classes>
             <class name="ru.hostco.tests.HealthIndicatorsTest"/>
         </classes>
